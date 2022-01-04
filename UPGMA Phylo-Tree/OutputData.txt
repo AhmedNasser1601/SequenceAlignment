@@ -1,0 +1,24 @@
+=====> Distance Matrix <=====
+homo_sapie	0
+chimpanzee	0.22695887120984692	0
+bonobo	0.22095466826778742	0.09696787751425995	0
+gorilla	0.2668868207745422	0.25788051636145304	0.24977484238967274	0
+orangutan	0.31732212548784144	0.32182527769438607	0.3161212848994296	0.322425697988592	0
+sumatran	0.3140198138697088	0.3281296907835485	0.3242269588712099	0.3284299009306515	0.1531071750225158	0
+	homo_sapie	chimpanzee	bonobo	gorilla	orangutan	sumatran
+
+
+
+=====> Merging Steps <=====
+Tree(rooted=True)
+    Clade(branch_length=0, name='Inner5')
+        Clade(branch_length=0.08458420894626237, name='Inner2')
+            Clade(branch_length=0.0765535875112579, name='sumatran')
+            Clade(branch_length=0.0765535875112579, name='orangutan')
+        Clade(branch_length=0.03095917141999402, name='Inner4')
+            Clade(branch_length=0.13017862503752625, name='gorilla')
+            Clade(branch_length=0.018200240168117665, name='Inner3')
+                Clade(branch_length=0.06349444611227861, name='Inner1')
+                    Clade(branch_length=0.048483938757129974, name='bonobo')
+                    Clade(branch_length=0.048483938757129974, name='chimpanzee')
+                Clade(branch_length=0.11197838486940859, name='homo_sapie')
